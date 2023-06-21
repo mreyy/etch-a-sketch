@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js
+    "></script>
+</head>
+
+<body style="background-color: rgb(78, 140, 227); color: rgb(244, 174, 184);">
+    <div class="flex-container">
+        <div class="title">
+            <h1>Etch-a-Sketch</h1>
+        </div>
+        <div class="buttons">
+            <button class="black" onclick="changeColor('Black')">Black</button>
+            <button class="pink" onclick="changeColor('Pink')">Pink</button>
+            <button class="eraser" onclick="changeColor('White')">Eraser</button>
+            <button class="reset" onclick="resetBoard()">Reset</button>
+        </div>
+        <br>
+        <div class="board"></div>
+
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
